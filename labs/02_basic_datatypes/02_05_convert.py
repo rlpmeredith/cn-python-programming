@@ -10,3 +10,17 @@ Demonstrate how to:
     Take note of what information is lost when some conversions take place.
 
 '''
+
+x = 7
+y = float(x)
+print(y)
+
+a = 2.3
+b = int(a)
+print(b)
+
+print(a // x)
+
+num1 = int(input("First Number "))
+num2 = int(input("Second Number "))
+print("Result of multiplcation is ", num1 * num2)
