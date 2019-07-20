@@ -7,7 +7,7 @@ Letter input: o
 Result: 4
 
 '''
-
+# Tested 19-17-19
 str_input = input("Please enter your string input: ")
 letter_input = input("Please enter your letter: ")
-print(str_input.index(letter_input))
+print("Result: " + str(str_input.index(letter_input)))

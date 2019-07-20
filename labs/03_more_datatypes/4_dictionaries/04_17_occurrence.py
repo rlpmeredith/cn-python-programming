@@ -6,7 +6,7 @@ user_input = "hello"
 result = {"h": 1, "e": 1, "l": 2, "o": 1}
 
 '''
-
+# tested 19-07-19
 my_string = input("Please enter a string: ")
 my_dict = {}
 for i in my_string:

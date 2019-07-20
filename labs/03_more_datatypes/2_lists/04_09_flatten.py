@@ -13,7 +13,7 @@ flattened_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 #        flat_list.append(item)
 #print(flat_list)
 
-
+# tested 19-07-19
 starting_list = [[1, 2, 3, 4], [5, 6], [7, 8, 9]]
 flat_list=[]
 flat_list = sum(starting_list, [])

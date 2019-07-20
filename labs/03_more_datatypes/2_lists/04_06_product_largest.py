@@ -9,7 +9,7 @@ that we haven't looked at yet. See if you can figure it out, otherwise
 come back to this task after you have learned about loops)
 
 '''
-
+# tested 19-07-19
 str_input1 = input("Enter 10 numbers separated by a space:")
 my_list = str_input1.split()
 print("Biggest number is:", max(my_list))
