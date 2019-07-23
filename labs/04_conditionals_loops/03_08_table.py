@@ -8,3 +8,10 @@ Use a loop to print the following table to the console:
  40 41 42 43 44 45 46 47 48 49
 
 '''
+# Tested 23-07-19
+my_count=0
+for i in range(1, 6):
+    for j in range(1, 11):
+        print(my_count, end=" ")
+        my_count += 1
+    print("")
