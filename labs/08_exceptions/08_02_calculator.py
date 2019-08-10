@@ -8,3 +8,18 @@ the script should handle:
 Test it and make sure it does not crash when you enter incorrect values.
 
 '''
+#Tested 10-08-2019
+
+carry_on = "c"
+while carry_on == "c":
+    try:
+        num1 = float(input("Enter the numerator: "))
+        num2 = float(input("Enter the denominator: "))
+        print(f"Answer is {num1/num2}")
+    except ValueError:
+        print("Please type a float for both values: ")
+    except ZeroDivisionError:
+        print("Please type a non zero denominator")
+    finally:
+        carry_on = input("Press q to quit or c to carry on: ")
+
