@@ -7,4 +7,35 @@ fail and write tests that will check and prevent failure.
 
 You do not need to implement the actual functions after writing the tests but you may.
 
+
+Function Division:
+
+# Takes two numbers and if they denominator is non zero divides the numerator by the denominator
+
+Function PrimeNumber:
+
+# Takes a number and decides if it is a prime number
+
 '''
+
+import unittest
+import myfunctions
+
+
+class TestUM(unittest.TestCase):
+
+    def setUp(self):
+        pass
+
+    def PrimeNumber_PrimenumberAsArgument_ReturnsTrue(self):
+        self.assertTrue(primenumber(37))
+
+    def PrimeNumber_NonPrimenumberAsArgument_ReturnsFalse(self):
+            self.assertFalse(primenumber(10))
+
+if __name__ == '__main__':
+    unittest.main()
+
+
+
+
