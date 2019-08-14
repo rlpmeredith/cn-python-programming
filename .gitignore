@@ -1,3 +1,5 @@
 .idea
 venv
-.DS_Store
+.DS_Storelabs/09_testing/__pycache__/
+pycharm_2018_Feb/
+labs/09_testing/__pycache__/
